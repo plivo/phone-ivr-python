@@ -66,7 +66,7 @@ pressed during the call as an HTTP request to perform the action specified
 in the action url. While `<Speak>` reads the text that's specified.
 
 
-{% highlight xml %}
+```
 <Response>
     <GetDigits action="Server URL to response/ivr" method="POST" numDigits="1" retries="1" timeout="10">
         <Speak>
@@ -77,18 +77,18 @@ in the action url. While `<Speak>` reads the text that's specified.
         Sorry, I didn't catch that. Please hangup the call and try again later.
     </Speak>
 </Response>
-{% endhighlight %}
+```
 
 
 ## Deploy your app on Heroku
 
 Create a Heroku app by typing the following commands in your console.
 
-{% highlight bash %}
+```
 heroku create
 git push heroku master
 heroku scale web=1
-{% endhighlight %}
+```
 
 
 <div class="doc-note">
@@ -97,11 +97,11 @@ the following. In this case, our app URL is http://pacific-chamber-7397.herokuap
 </div>
 
 
-{% highlight bash %}
+```
 Creating pacific-chamber-7397... done, stack is cedar
 http://pacific-chamber-7397.herokuapp.com/ | git@heroku.com:pacific-chamber-7397.git
 Git remote heroku added
-{% endhighlight %}
+```
 
 
 Verify that your app is working by visiting the Heroku app URL above.
