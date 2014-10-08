@@ -123,7 +123,7 @@ For example, our Answer URL will look like this:
 
 Choose the GET Answer method and leave all other fields as is. Click on 'Create' when done.
 
-![Plivo App](https://new-ui-cms-plivo.s3.amazonaws.com/uploads/plivo_cloud___create_application.png)
+![Plivo App](https://www.plivo.com/assets/docs/create-application-phone-ivr.png)
 
 
 ## Assign a Plivo phone number to your app
@@ -132,7 +132,7 @@ Go to the [Numbers tab](https://manage.plivo.com/number) and select the phone
 number you want to use for this app. Then select the name of your app next to Plivo App.
 Click 'Update' when done. If you don't yet have a number, you can purchase one in the [Numbers tab](https://manage.plivo.com/number).
 
-![](https://new-ui-cms-plivo.s3.amazonaws.com/uploads/scree_cap_plivo_cloud_edit_numbers.png)
+![](https://www.plivo.com/assets/docs/edit-number-phone-ivr.png)
 
 You're done! Give your Plivo phone number a call and enjoy your Cloud IVR app!
 
