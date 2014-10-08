@@ -44,6 +44,8 @@ programming language. Check out Plivo's pre-built [helper libraries](https://pli
 1. Clone the source files from github. Type the below command in your console.
 
         git clone https://github.com/plivo/phone-ivr-python.git
+        
+    Note: If you don’t already have pip installed, you'll want to follow this [guide](http://www.pip-installer.org/en/latest/installing.html).
 
 
 2. Run the app locally. In your console, navigate to the folder `phone-ivr-python` and run the app,
@@ -52,6 +54,7 @@ programming language. Check out Plivo's pre-built [helper libraries](https://pli
         cd phone-ivr-python
         virtualenv --distribute venv
         source venv/bin/activate
+        pip install -r requirements.txt
         python app.py
 
 
